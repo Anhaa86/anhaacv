@@ -1,0 +1,82 @@
+/* Үндсэн фон, фонт */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e4f5);
+  margin: 0;
+  padding: 30px 15px;
+  color: #333;
+}
+
+/* Контейнер дизайн */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+.container:hover {
+  transform: translateY(-4px);
+}
+
+/* Толгой хэсэг */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 15px;
+}
+header h1 {
+  font-size: 32px;
+  color: #2c3e50;
+}
+header p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Гарчиг */
+h2 {
+  font-size: 22px;
+  color: #3b5998;
+  border-left: 5px solid #3b5998;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Хэсгийн дотоод контент */
+section {
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: #444;
+}
+
+ul li {
+  margin-bottom: 6px;
+  transition: all 0.2s ease-in-out;
+}
+ul li:hover {
+  color: #3b5998;
+  transform: translateX(4px);
+}
+
+/* Хариуцлагатай дизайн */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
